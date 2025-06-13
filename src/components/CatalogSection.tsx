@@ -8,7 +8,7 @@ const CatalogSection = () => {
       size: "225/45 R17",
       price: "85,000",
       image:
-        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1544829099-b9a0c5303bea?w=400&h=300&fit=crop",
       rating: 5,
       season: "Лето",
     },
@@ -18,7 +18,7 @@ const CatalogSection = () => {
       size: "205/55 R16",
       price: "72,000",
       image:
-        "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1544829099-b9a0c5303bea?w=400&h=300&fit=crop",
       rating: 4,
       season: "Зима",
     },
@@ -28,7 +28,7 @@ const CatalogSection = () => {
       size: "215/60 R16",
       price: "68,000",
       image:
-        "https://images.unsplash.com/photo-1609521263534-37a9b7aec8ee?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1544829099-b9a0c5303bea?w=400&h=300&fit=crop",
       rating: 4,
       season: "Лето",
     },
@@ -38,7 +38,7 @@ const CatalogSection = () => {
       size: "245/40 R18",
       price: "95,000",
       image:
-        "https://images.unsplash.com/photo-1609521263386-d6c9d8e8b9b3?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1544829099-b9a0c5303bea?w=400&h=300&fit=crop",
       rating: 5,
       season: "Лето",
     },
@@ -48,7 +48,7 @@ const CatalogSection = () => {
       size: "195/65 R15",
       price: "58,000",
       image:
-        "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1544829099-b9a0c5303bea?w=400&h=300&fit=crop",
       rating: 5,
       season: "Зима",
     },
@@ -58,7 +58,7 @@ const CatalogSection = () => {
       size: "225/55 R17",
       price: "75,000",
       image:
-        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1544829099-b9a0c5303bea?w=400&h=300&fit=crop",
       rating: 4,
       season: "Всесезон",
     },

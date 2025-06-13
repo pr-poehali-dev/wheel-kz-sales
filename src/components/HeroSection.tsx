@@ -6,8 +6,33 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="gradient-bg text-white py-20">
-      <div className="container mx-auto px-4 text-center">
+    <section className="gradient-bg text-white py-20 relative overflow-hidden">
+      {/* Background tire images */}
+      <div className="absolute inset-0 opacity-10">
+        <div
+          className="absolute top-10 left-10 w-32 h-32 bg-contain bg-no-repeat opacity-30"
+          style={{
+            backgroundImage:
+              "url(https://images.unsplash.com/photo-1606016838218-7f0c46a1840c?w=200&h=200&fit=crop)",
+          }}
+        ></div>
+        <div
+          className="absolute bottom-10 right-10 w-40 h-40 bg-contain bg-no-repeat opacity-20"
+          style={{
+            backgroundImage:
+              "url(https://images.unsplash.com/photo-1544829099-b9a0c5303bea?w=200&h=200&fit=crop)",
+          }}
+        ></div>
+        <div
+          className="absolute top-1/2 left-1/4 w-24 h-24 bg-contain bg-no-repeat opacity-15"
+          style={{
+            backgroundImage:
+              "url(https://images.unsplash.com/photo-1606016838218-7f0c46a1840c?w=200&h=200&fit=crop)",
+          }}
+        ></div>
+      </div>
+
+      <div className="container mx-auto px-4 text-center relative z-10">
         <h1 className="font-montserrat font-bold text-4xl md:text-6xl mb-6">
           Лучшие шины в Казахстане
         </h1>

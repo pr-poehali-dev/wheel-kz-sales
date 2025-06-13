@@ -37,14 +37,17 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
-          <p>© 2024 Wheel.kzauto. Все права защищены.</p>
-          <p className="mt-2 text-sm">
-            Создатель сайта:{" "}
-            <span className="text-automotive-red font-semibold">
-              Муртазин Габбас Уралович
-            </span>
+        <div className="border-t border-gray-700 mt-8 pt-8">
+          <p className="text-center text-gray-400 mb-6">
+            © 2024 Wheel.kzauto. Все права защищены.
           </p>
+
+          <div className="text-center">
+            <p className="text-gray-300 text-lg mb-2">Создатель сайта</p>
+            <h3 className="font-montserrat font-bold text-3xl text-automotive-red bg-gradient-to-r from-automotive-red to-red-400 bg-clip-text text-transparent">
+              Муртазин Габбас Уралович
+            </h3>
+          </div>
         </div>
       </div>
     </footer>
